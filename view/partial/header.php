@@ -14,9 +14,9 @@
     <div class="d-flex jc-end">
     <!-- Si connecter changement de la Navigation -->
         <?php if (isset($_SESSION['utilisateur_id'])) : ?>
-        <a href="../ctrl/.php" class="text-deco police-color p-1">Quizz</a></li>
+        <a href="../ctrl/quiz.php" class="text-deco police-color p-1">Quizz</a></li>
         <a href="../ctrl/.php" class="text-deco police-color p-1">LOREM</a></li>
-        <a href="../ctrl/login.php" class="text-deco police-color p-1">Logout</a>
+        <a href="../ctrl/logout.php" class="text-deco police-color p-1">Logout</a>
 
         <!-- Si pas connecter -->
         <?php else : ?>
