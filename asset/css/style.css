@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+:root{
+    --primary-color : #ACC8E5;
+    --second-color : #112A46;
+}
+
+.bgc-blue{
+    background-color: var(--primary-color);
+}
+
+/* IMAGE */
+img{
+    object-fit: contain;
+}
+
+/* Typo */
+.text-deco{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* SIZE */
+.w-1200{
+    max-width: 1200px;
+}
+
+.w-70{
+    width: 70%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+
+.w-55{
+    max-width: 55px;
+}
+/* MARGIN */
+.p-1 {
+    padding: 16px; /*1em = 1rem = 16px*/
+}
+.p-45{
+    padding: 45px;
+}
+
+.m-auto{
+    margin: auto;
+}
+.m-10{
+    margin: 10px;
+}
+.m-15{
+    margin: 15px;
+}
+
+.m-b-35{
+    margin-bottom: 35px;
+}
+/* DISPLAY */
+.d-flex {
+    display: flex;
+}
+
+.d-grid{
+    display: grid;
+}
+ .wrap{
+    flex-wrap: wrap;
+ }
+
+.jc-center{
+    justify-content: center;
+}
+.sp-bet{
+    justify-content: space-between;
+}
+.jc-end{
+    justify-content: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
+
+
+
+/* COLOR */
+.light-blue{
+    background-color: var(--primary-color);
+}
+.police-color{
+    color: var(--second-color);
+}
+.bgc-w{
+    background-color: white;
+}
+
+/* OBJECT */
+.border-ra{
+    border-radius: 20px;
+}
+
+.input{
+    padding: 5px;
+    height: 30px;
+    border: none;
+    width: 360px;
+}
+
+.button{
+    background-color: var(--second-color);
+    color: white;
+    border: none;
+    max-width: 250px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+
+h4{
+    display: inline;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

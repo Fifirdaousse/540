@@ -15,3 +15,9 @@ function getPDO()
 
     return $pdo;
 }
+
+// function logMsg($msg)
+// {
+//     echo 'foo';
+//     echo $msg . PHP_EOL;
+// }
