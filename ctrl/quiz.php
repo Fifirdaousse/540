@@ -10,6 +10,11 @@ if (!isset($_SESSION['utilisateur_id'])) {
 
 require '../lib/quiz.php';
 
+$questions = getQuestionsRandomly(5);
+
+// $questions = getQuestionAndAnswer($limit);
+// $limit = 5; // Nombre de questions avec leurs propositions liées à récupérer aléatoirement
+
 
 
 // var_dump($numbers);

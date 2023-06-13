@@ -2,7 +2,7 @@
 
 // Vérifier si l'utilisateur est déjà connecté
 if (isset($_SESSION['utilisateur_id'])) {
-    header("Location: ../view/quiz-view.php"); // Rediriger vers la page d'accueil ou toute autre page après la connexion
+    header("Location: ../ctrl/quiz.php"); // Rediriger vers la page d'accueil ou toute autre page après la connexion
     exit();
 }
 

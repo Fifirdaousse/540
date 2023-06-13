@@ -36,6 +36,9 @@ img{
 .w-1200{
     max-width: 1200px;
 }
+.w-1000{
+    max-width: 1000px;
+}
 
 .w-70{
     width: 70%;
@@ -50,6 +53,10 @@ img{
 .w-55{
     max-width: 55px;
 }
+
+.h-80{
+    height: 80px;
+}
 /* MARGIN */
 .p-1 {
     padding: 16px; /*1em = 1rem = 16px*/
@@ -57,7 +64,9 @@ img{
 .p-45{
     padding: 45px;
 }
-
+.p-5{
+    padding: 5px;
+}
 .m-auto{
     margin: auto;
 }
